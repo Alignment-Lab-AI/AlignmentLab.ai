@@ -1,0 +1,42 @@
+[debug] [2023-04-14T21:28:04.846Z] ----------------------------------------------------------------------
+[debug] [2023-04-14T21:28:04.847Z] Command:       C:\Users\CapnC\DOWNLO~1\FIREBA~1\firebase-tools-instant-win.exe C:\Users\CapnC\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
+[debug] [2023-04-14T21:28:04.848Z] CLI Version:   11.27.0
+[debug] [2023-04-14T21:28:04.848Z] Platform:      win32
+[debug] [2023-04-14T21:28:04.848Z] Node Version:  v16.16.0
+[debug] [2023-04-14T21:28:04.849Z] Time:          Fri Apr 14 2023 16:28:04 GMT-0500 (Central Daylight Time)
+[debug] [2023-04-14T21:28:04.849Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-14T21:28:04.931Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-14T21:28:04.932Z] > authorizing via signed-in user (autometa@alignmentlab.ai)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2023-04-14T21:28:04.940Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-04-14T21:28:04.941Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-04-14T21:28:04.941Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-04-14T21:28:04.947Z] [hub] writing locator at C:\Users\CapnC\AppData\Local\Temp\hub-alignment-lab-ai-50773.json
+[debug] [2023-04-14T21:28:04.964Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/alignment-lab-ai-50773/sites 
+[debug] [2023-04-14T21:28:05.466Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/alignment-lab-ai-50773/sites 200
+[debug] [2023-04-14T21:28:05.466Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/alignment-lab-ai-50773/sites {"sites":[{"name":"projects/alignment-lab-ai-50773/sites/alignment-lab-ai-50773","defaultUrl":"https://alignment-lab-ai-50773.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-04-14T21:28:05.467Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/alignment-lab-ai-50773/webApps/-/config [none]
+[debug] [2023-04-14T21:28:05.785Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/alignment-lab-ai-50773/webApps/-/config 200
+[debug] [2023-04-14T21:28:05.785Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/alignment-lab-ai-50773/webApps/-/config {"projectId":"alignment-lab-ai-50773","storageBucket":"alignment-lab-ai-50773.appspot.com","apiKey":"AIzaSyBCz4UcSuCA8zokDSTP58N8KYWV31oAl1Q","authDomain":"alignment-lab-ai-50773.firebaseapp.com","messagingSenderId":"1082242072669"}
+[debug] [2023-04-14T21:28:05.795Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/alignment-lab-ai-50773 [none]
+[debug] [2023-04-14T21:28:05.935Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/alignment-lab-ai-50773 200
+[debug] [2023-04-14T21:28:05.935Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/alignment-lab-ai-50773 {"projectId":"alignment-lab-ai-50773","projectNumber":"1082242072669","displayName":"Alignment Lab AI","name":"projects/alignment-lab-ai-50773","resources":{"hostingSite":"alignment-lab-ai-50773"},"state":"ACTIVE","etag":"1_c52dbbe8-7f9f-4715-bf56-9218c5bf6ff9"}
+[info] i  hosting[alignment-lab-ai-50773]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[alignment-lab-ai-50773]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 

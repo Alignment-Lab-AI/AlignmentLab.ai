@@ -1,0 +1,85 @@
+.hexagon {
+    position: relative;
+    width: 57.735026918925px;
+    height: 100px;
+    margin: 3px 14.933756729731px;
+    background-color: #111;
+    transition: all 650ms ease-in-out;
+}
+ .hexagon:before, .hexagon:after {
+	 content: "";
+	 position: absolute;
+	 border-top: 50px solid transparent;
+	 border-bottom: 50px solid transparent;
+	 transition: all 650ms ease-in-out;
+}
+ .hexagon:before {
+	 left: 100%;
+	 border-left: 28.867513459463px solid #111;
+}
+ .hexagon:after {
+	 right: 100%;
+	 border-right: 28.867513459463px solid #111;
+}
+ .hexagon.highlight, .hexagon:hover {
+	 transition: all 150ms ease-in-out;
+}
+ .hexagon.highlight:before, .hexagon.highlight:after, .hexagon:hover:before, .hexagon:hover:after {
+	 transition: all 150ms ease-in-out;
+}
+ .hexagon:hover {
+	 cursor: pointer;
+	 background-color: #3f3f3f;
+}
+ .hexagon:hover:before, .hexagon:hover:after {
+	 border-left-color: #3f3f3f;
+	 border-right-color: #3f3f3f;
+}
+ .hexagon.highlight {
+	 background-color: #444;
+}
+ .hexagon.highlight:before, .hexagon.highlight:after {
+	 border-left-color: #444;
+	 border-right-color: #444;
+}
+ .col {
+	 position: relative;
+	 top: -3px;
+	 left: -50px;
+	 display: inline-block;
+}
+ .col:nth-of-type(even) {
+	 top: -54.5px;
+}
+
+body{
+	position: relative;
+	height:100%;
+	width:100%;
+	background: linear-gradient(90deg, hsla(0,0%,0%,1.00), hsla(6,100%,19%,1.00), hsla(0,0%,0%,1.00)) left/200% 50%;
+    animation: f 9s linear infinite;
+	color: rgba(255, 255, 255, 1.0);
+    font-family: 'Lato', sans-serif;
+}
+
+ #hex {
+  position:fixed;
+  height: 140%;
+  width: 140%;
+  overflow: hidden;
+  white-space: nowrap;
+  transform: translate(-3%,-3%);
+	 
+}
+
+@keyframes f {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
