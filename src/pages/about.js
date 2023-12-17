@@ -31,16 +31,16 @@ export default function About() {
                         </div>
                         <div className='col-span-8 lg:col-span-8 xl:col-span-8 mx-auto'>
                             <p className='text-xs md:text-sm lg:text-base leading-loose text-center'>
-                                Our alignment strategy focuses on the preparation for the inevitable centering of the industry on the open source, as time has gone on we've been repeatedly validated in our understanding of this inevitability. We believe that the opportunity this provides for large-scale education, access, and research is extremely important to optimize for immediately as we very quickly progress to agentic generally useful AI, and the consequences that may occur if we are not prepared.
+                                Our alignment strategy focuses on the preparation for the inevitable adoption of powerful AI by the general public.We believe that the opportunity this provides for large-scale education, access, and research is extremely important to optimize for immediately as we very quickly progress to agentic, generally capable AI, and the consequences that may occur if we are not prepared.
                             </p>
                         </div>
                     </div>
                     <hr className="border-slate-600 dark:border-slate-400 my-6" />
 
-                    <p className='text-lg md:text-xl lg:text-2xl leading-loose'>
-                        Our focus spans a broad range of topics related to AI and machine learning, multimodality, multilinguality, sparsity, compute efficiency, social impact, workflow optimization, and more. Our diverse range of interests allows us to approach AI challenges from unique perspectives, ensuring our solutions are both innovative and effective. Our recent projects, such as the OpenOrca data and MistralOrca model, showcase our ability to create tools and models that are not just technologically advanced but also highly relevant to the evolving needs of the AI community.
+                    <p className='text-lg md:text-xl lg:text-2xl leading-loose text-center'>
+                        Our focus spans a broad range of topics related to AI and machine learning such as:  workflow optimization, multimodality, multilinguality, sparsity, compute efficiency, environmental impact, social impact, and more. Our diverse range of interests allows us to approach AI challenges from unique perspectives, ensuring our solutions are both innovative and effective. Our recent projects, such as the OpenOrca data and MistralOrca model, showcase our ability to create tools and models that are not just technologically advanced but also highly relevant to the evolving needs of the AI community.
                     </p>
-                    <p className='text-lg md:text-xl lg:text-2xl leading-loose'>
+                    <p className='text-lg md:text-xl lg:text-2xl leading-loose text-center'>
                         Alignment Lab AI brings together a wealth of knowledge and experience from different corners of the world. The diverse talent and perspectives allows us to make the rapid progress we enjoy, and has allowed us to create a system of global cooperation from many dozens of organizations and individuals from every background and origin.
                     </p>
                 </div>
