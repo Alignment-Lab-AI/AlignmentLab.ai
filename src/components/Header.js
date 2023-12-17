@@ -21,12 +21,16 @@ export default function Header() {
 
     return (
         <header className="border-b">
-            <div className="flex justify-between py-4 items-center mx-2 md:mx-6">
+            <div className="flex justify-between py-4 items-center mx-2 md:mx-4">
                 <Link href="/">
-                    <div className="flex items-center gap-2 hover:text-teal-400 transition duration-300">
-                        <svg aria-hidden="true" fill="none" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path clipRule="evenodd" d="M2 3.5C2 2.67157 2.67157 2 3.5 2C4.32843 2 5 2.67157 5 3.5V28.5C5 29.3284 4.32843 30 3.5 30C2.67157 30 2 29.3284 2 28.5V3.5ZM19 4C19 2.89543 19.8954 2 21 2H28C29.1046 2 30 2.89543 30 4V28C30 29.1046 29.1046 30 28 30H21C19.8954 30 19 29.1046 19 28V4ZM11 2C9.89543 2 9 2.89543 9 4V28C9 29.1046 9.89543 30 11 30H13C14.1046 30 15 29.1046 15 28V4C15 2.89543 14.1046 2 13 2H11Z" fill="currentColor" fillRule="evenodd"></path></svg>
-                        <span className="text-sm">
-                            Alignment
+                    <div className="flex items-center gap-0 hover:text-teal-400 transition duration-300">
+                        <svg aria-hidden="true" fill="none" height="55" width="83" viewBox="0 0 25 32" xmlns="http://www.w3.org/2000/svg">
+                                <g transform="skewX(-20)">
+                                    <path transform="scale(0.6, 1)" clipRule="evenodd" d="M2 3.5C2 2.67157 2.67157 2 3.5 2C4.32843 2 5 2.67157 5 3.5V28.5C5 29.3284 4.32843 30 3.5 30C2.67157 30 2 29.3284 2 28.5V3.5ZM19 4C19 2.89543 19.8954 2 21 2H28C29.1046 2 30 2.89543 30 4V28C30 29.1046 29.1046 30 28 30H21C19.8954 30 19 29.1046 19 28V4ZM11 2C9.89543 2 9 2.89543 9 4V28C9 29.1046 9.89543 30 11 30H13C14.1046 30 15 29.1046 15 28V4C15 2.89543 14.1046 2 13 2H11Z" fill="currentColor" fillRule="evenodd"></path>
+                                </g>
+                            </svg>
+                        <span className="text-5xl -ml-12">
+                            \LAI
                         </span>
                     </div>
                 </Link>
