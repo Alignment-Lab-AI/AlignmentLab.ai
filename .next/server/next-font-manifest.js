@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST='{"pages":{"/_app":["static/media/414fe043d41639e8.p.woff2"]},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":false}';
