@@ -3,5 +3,4 @@ const nextConfig = {
   reactStrictMode: true,
   transpilePackages: ['geist']
 }
-/* */
 module.exports = nextConfig
