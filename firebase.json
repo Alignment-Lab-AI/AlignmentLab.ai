@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "/home/autometa/Pictures/old/manti/AlignmentLab.ai/public",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
