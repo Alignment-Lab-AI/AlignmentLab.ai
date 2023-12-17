@@ -2,7 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   transpilePackages: ['geist'],
-  output: 'export'  // Add this line for static HTML export
+  output: 'export',  // For static HTML export
+  images: {
+    unoptimized: true,  // Disables image optimization
+  }
 }
 
 module.exports = nextConfig;
