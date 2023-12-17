@@ -9,7 +9,7 @@ export default function Home() {
     <main className="min-h-screen">
       <div className='container mx-auto'>
         <div className="flex flex-col justify-center items-center gap-6 min-h-screen">
-          <h1 className="text-6xl font-bold hover:text-teal-400 transition duration-300 text-center">
+          <h1 className="mt-24 text-6xl font-bold hover:text-teal-400 transition duration-300 text-center">
             Alignment Lab AI
           </h1>
           <img src="/images/abstract.png" alt="Abstract" style={{ filter: 'invert(100%)' }} />
