@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  experimental: {
-    appDir: true,
-  },
-};
+  reactStrictMode: true,
+  transpilePackages: ['geist']
+}
 
-module.exports = nextConfig;
+module.exports = {
+  distDir: 'public',
+}
