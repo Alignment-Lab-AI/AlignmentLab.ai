@@ -19,7 +19,6 @@ export default function Home() {
         </div>
       </div>
       <hr className="border-slate-600 dark:border-slate-400 my-6" />
-
       <div className='container mx-auto'>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-2 md:mx-auto py-6">
           <div className='col-span-1 md:col-span-2'>
