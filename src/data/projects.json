@@ -68,5 +68,20 @@
     "description": "An early project designed to solve the issue of coding with large language models to generate not only accessability to programming for those who dont have the time or resources to learn, but to increase the sparse access to tutorials and data regarding less known or popular languages as well.",
     "image": "https://aeiljuispo.cloudimg.io/v7/https://cdn-uploads.huggingface.co/production/uploads/6436279eaaef013d1af225c9/Sv-RtSu-WeI5WJuL2sFTq.png?w=200&h=200&f=face",
     "link": "https://huggingface.co/Programming-Language"
+  },
+  {
+  "id": 11,
+  "title": "xDAN Model Release",
+  "description": "Introducing the xDAN models from AlignmentLab.AI, a groundbreaking achievement in AI. These models, a fusion of advanced techniques and rich datasets, including @IntelAI's Orca dpo pairs (https://huggingface.co/datasets/Intel/orca_dpo_pairs) and a SFT on the Open Orca dataset (https://huggingface.co/datasets/Open-Orca/OpenOrca), demonstrate unparalleled performance. Excelling in mt-bench rankings, xDAN is second only to GPT-4 and boasts impressive scores in the lm eval harness. A milestone in AI, this release paves the way for future benchmarks and collaborative progress in AI technology.",
+  "image": "https://cdn.discordapp.com/attachments/1138188072283033720/1189126789818236998/DALLE_2023-12-26_02.44.47_-_An_illustration_representing_three_innovative_AI_projects._1._xDAN_Models__A_digital_landscape_showcasing_an_advanced_AI_neural_network_with_streams_.png?ex=659d079f&is=658a929f&hm=db82b046e096bbe85d9afdfc8783c6f3b5db8d772e4c0e50e50cb87b13ada5ee&",
+  "link": "https://huggingface.co/xDAN-AI/xDAN-L1-Chat-RL-v1"
+  },
+  {
+  "id": 12,
+  "title": "AI Benchmarking Revolution",
+  "description": "Join the forefront of AI benchmarking with our latest project. This initiative is focused on developing a new paradigm for evaluating AI models, addressing familiar challenges in the field. Our goal is to streamline and standardize benchmarking processes, ensuring peak performance from AI models with minimal prompt engineering by the user. This project is a call to action for collaboration and innovation in the AI community. Be part of this exciting journey to redefine AI benchmarking standards and practices.",
+  "image": "https://cdn.discordapp.com/attachments/1138188072283033720/1189127197441658890/DALLE_2023-12-26_02.46.43_-_A_conceptual_illustration_representing_the_idea_of_AI_benchmarking._The_image_should_depict_a_futuristic_dashboard_filled_with_graphs_charts_and_dig.png?ex=659d0800&is=658a9300&hm=2abf5b0f6a5972fe05945672e532450fb38ff4e9835013d1db27d8c36401b220&",
+  "link": "https://discord.gg/KNXvq7tWvt"
   }
 ]
+
