@@ -71,9 +71,9 @@
   },
   {
   "id": 11,
-  "title": "xDAN Model Release",
+  "title": "xDANe",
   "description": "Introducing the xDAN models from AlignmentLab.AI, a groundbreaking achievement in AI. These models, a fusion of advanced techniques and rich datasets, including @IntelAI's Orca dpo pairs (https://huggingface.co/datasets/Intel/orca_dpo_pairs) and a SFT on the Open Orca dataset (https://huggingface.co/datasets/Open-Orca/OpenOrca), demonstrate unparalleled performance. Excelling in mt-bench rankings, xDAN is second only to GPT-4 and boasts impressive scores in the lm eval harness. A milestone in AI, this release paves the way for future benchmarks and collaborative progress in AI technology.",
-  "image": "https://cdn.discordapp.com/attachments/1138188072283033720/1189126789818236998/DALLE_2023-12-26_02.44.47_-_An_illustration_representing_three_innovative_AI_projects._1._xDAN_Models__A_digital_landscape_showcasing_an_advanced_AI_neural_network_with_streams_.png?ex=659d079f&is=658a929f&hm=db82b046e096bbe85d9afdfc8783c6f3b5db8d772e4c0e50e50cb87b13ada5ee&",
+  "image": "https://media.discordapp.net/attachments/1138188072283033720/1189129655404462170/xDAN_AI_-3.jpg?ex=659d0a4a&is=658a954a&hm=c589fede064bd35d9fd0268a6cc953cf3b9d045c8ea59f10412eabdd1c1b7817&=&format=webp&width=998&height=998",
   "link": "https://huggingface.co/xDAN-AI/xDAN-L1-Chat-RL-v1"
   },
   {
