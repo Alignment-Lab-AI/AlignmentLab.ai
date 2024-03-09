@@ -1,0 +1,12 @@
+# docker compose for running the application
+
+version: '3.7'
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    command: npm run dev
+    volumes:
+      - .:/usr/app/
+      - /usr/app/node_modules

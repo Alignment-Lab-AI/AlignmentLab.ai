@@ -14,7 +14,7 @@ export default function About() {
                     </h1>
                 </div>
 
-                    <hr className="border-slate-600 dark:border-slate-400 my-6" />
+                <hr className="border-slate-600 dark:border-slate-400 my-6" />
                 <div className='container mx-auto'>
 
                     <p className='text-lg md:text-xl lg:text-2xl leading-loose'>
@@ -30,7 +30,7 @@ export default function About() {
                             return (
                                 <li key={index} className='item-dark-enabled shadow-lg rounded-lg p-6 md:p-12'>
                                     <div className="flex flex-col justify-center justify-items-center items-center gap-4 my-6">
-                                        {project?.image && <img src={project.image} alt={project.title} className='max-w-sm' />}
+                                        {project?.image && <img src={project.image} alt={project.title} style={{height:'200px', width:'200px', objectFit:'contain',}} />}
                                         {project?.title && <h2 className='text-2xl font-bold'>
                                             {project.title}
                                         </h2>}
@@ -44,6 +44,7 @@ export default function About() {
                                                 return (<img key={index} src={detail} alt={project.title} className='' />)
                                             })}
                                         </div>
+                                        
                                         <Button href={project.link} className='w-full' text='🌟Github|Huggingface🤗' />
                                     </div>
                                 </li>
@@ -56,3 +57,4 @@ export default function About() {
         </>
     )
 }
+
