@@ -44,7 +44,7 @@ export default function About() {
                                                 return (<img key={index} src={detail} alt={project.title} className='' />)
                                             })}
                                         </div>
-                                        {'HAHAHAHAH'}
+                                        
                                         <Button href={project.link} className='w-full' text='🌟Github|Huggingface🤗' />
                                     </div>
                                 </li>
