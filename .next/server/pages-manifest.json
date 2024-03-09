@@ -1,10 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/projects": "pages/projects.js",
-  "/": "pages/index.js",
-  "/about": "pages/about.js",
-  "/contact": "pages/contact.js",
-  "/team": "pages/team.js"
-}
+{"/_app":"pages/_app.js","/_error":"pages/_error.js","/_document":"pages/_document.js","/careers":"pages/careers.html","/":"pages/index.html","/contact":"pages/contact.html","/legal/privacy":"pages/legal/privacy.html","/legal/terms":"pages/legal/terms.html","/about":"pages/about.html","/projects":"pages/projects.html","/team":"pages/team.html","/news":"pages/news.js","/404":"pages/404.html"}
