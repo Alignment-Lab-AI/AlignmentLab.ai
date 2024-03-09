@@ -19,9 +19,10 @@ docker-compose up
 ```
 ###
 To avoid the issue of the incorrect routing when reloading in prod
+```bash
 
 npm build 
-
+```
 ## Tech Stack
 Next.js, Turbo, TailwindCSS
 
