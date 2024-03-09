@@ -4,7 +4,7 @@ import Link from 'next/link';
 import RenderTable from '@/components/RenderTable';
 import Button from '@/components/Button';
 
-export default function About() {
+export default function Projects() {
     return (
         <>
             <div className="mx-2 md:mx-6 py-6">
