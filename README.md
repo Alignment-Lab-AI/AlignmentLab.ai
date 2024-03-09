@@ -17,6 +17,10 @@ Docker is also supported:
 ```bash
 docker-compose up
 ```
+###
+To avoid the issue of the incorrect routing when reloading in prod
+
+npm build 
 
 ## Tech Stack
 Next.js, Turbo, TailwindCSS
