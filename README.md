@@ -13,6 +13,10 @@ turbo dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+Docker is also supported:
+```bash
+docker-compose up
+```
 
 ## Tech Stack
 Next.js, Turbo, TailwindCSS
