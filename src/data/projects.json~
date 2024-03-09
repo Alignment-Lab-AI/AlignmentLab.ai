@@ -11,7 +11,7 @@
         "title": "Open-Orca",
         "description": "Open Orca is another research library of open-sourced language models and datasets designed around synthetic data optimization and at scale generation to understand its impact on the performance. the datasets and models are broadly used across the industry as a means to improve instruction following, alignment, intelligence and allow for an augmented base model capable of strong SOTA capabilities across a wide range of subjects to fine tune over for down stream tasks",
         "image": "https://huggingface.co/datasets/Open-Orca/OpenOrca/resolve/main/OpenOrcaLogo.png",
-        "link": "hhttps://huggingface.co/datasets/Open-Orca/SlimOrca"
+        "link": "https://huggingface.co/datasets/Open-Orca/SlimOrca"
     },
     {
         "id": 3,
