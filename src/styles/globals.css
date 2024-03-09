@@ -8,3 +8,24 @@
 .secondary-dark-enabled{
     @apply bg-slate-400 dark:bg-slate-700 text-slate-900 dark:text-slate-200;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-card__image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  

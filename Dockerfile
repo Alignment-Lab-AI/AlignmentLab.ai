@@ -1,9 +1,5 @@
 FROM node:latest
-
-WORKDIR /code/
-COPY package*.json ./
-RUN npm install
+WORKDIR /usr/app
+COPY package.json .
+RUN npm install --quiet
 COPY . .
-EXPOSE 3000
-# run dev in port 5000
-CMD npm run dev
