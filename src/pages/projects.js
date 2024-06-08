@@ -19,7 +19,7 @@ export default function Projects() {
 
                     <p className='text-lg md:text-xl lg:text-2xl leading-loose'>
                         We&apos;ve been consistently pushing State of the Art in AI. Our large language models have revolutionized the field, with substantial improvements in reasoning and performance among open models. <br /> 
-                        With over 100+ leading global companies such as stability, intel, and TII deploying our datasets, infrastructure, and models at scale we are among the leading AI research labs in the world..
+                        With over 100+ leading global companies such as Stability, Intel, and TII deploying our datasets, infrastructure, and models at scale we are among the leading AI research labs in the world.
                     </p>
                 </div>
             </div>
