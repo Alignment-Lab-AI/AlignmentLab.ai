@@ -12,7 +12,7 @@ export default function About() {
             <div className='container mx-auto'>
                 <div className="flex justify-center flex-col gap-6">
                     <p className='text-lg md:text-xl lg:text-2xl leading-loose'>
-                        Alignment Lab AI is an open-source research lab with a simple goal: to ensure the development of AI benefits everyone. We believe in empowering individuals by making this transformative technology accessible, user-friendly, and aligned with human values.
+                        Alignment Lab AI is an open-source research lab with a simple goal: to ensure that the development of AI benefits everyone. We believe in empowering individuals by making this transformative technology accessible, user-friendly, and aligned with human values.
                     </p>
                     <div>
                         <div className='border border-b-0 mt-6 border-slate-600 dark:border-slate-00 w-fit mx-auto p-6'>
