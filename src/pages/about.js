@@ -12,7 +12,7 @@ export default function About() {
             <div className='container mx-auto'>
                 <div className="flex justify-center flex-col gap-6">
                     <p className='text-lg md:text-xl lg:text-2xl leading-loose'>
-                        Alignment Lab AI is an open-source research lab building tools and frameworks that empower users to directly access the potential of AI technology. We are dedicated to democratizing AI by making it accessible, efficient, and user-friendly for everyone, regardless of technical expertise.
+                        <strong>Alignment Lab AI</strong> is an open-source research lab building tools and frameworks that empower users to directly access the potential of AI technology. We are dedicated to democratizing AI by making it accessible, efficient, and user-friendly for everyone, regardless of technical expertise.
                     </p>
                     <div>
                         <div className='border border-b-0 mt-6 border-slate-600 dark:border-slate-00 w-fit mx-auto p-6'>
@@ -28,11 +28,14 @@ export default function About() {
                         </div>
                         <div className='col-span-8 lg:col-span-8 xl:col-span-8 mx-auto'>
                             <p className='text-xs md:text-sm lg:text-base leading-loose text-center'>
-                                Our mission is to create an AI ecosystem that is aligned with human values and fosters innovation, transparency, and user empowerment. We envision a future where AI technology is a force for good, benefiting individuals and society as a whole by enabling individuals to directly access and utilize the power of their own data to improve their lives.
+                                <strong>Our mission is to create an AI ecosystem that is aligned with human values and fosters innovation, transparency, and user empowerment.</strong> We envision a future where AI technology is a force for good, benefiting individuals and society as a whole by enabling individuals to directly access and utilize the power of their own data to improve their lives.
                             </p>
                         </div>
                     </div>
                     <hr className="border-slate-600 dark:border-slate-400 my-6" />
+                    <h3 className='text-2xl md:text-3xl lg:text-4xl font-bold text-center'>
+                        Additional Content
+                    </h3>
                     <p className='text-lg md:text-xl lg:text-2xl leading-loose text-center'>
                         A core focus for us is building an AI-optimized ecosystem with a user-centric design, powered by generative AI that anticipates user needs prioritizes their privacy and security through ensuring that users have complete control over their information.
                     </p>
