@@ -12,7 +12,7 @@ export default function About() {
             <div className='container mx-auto'>
                 <div className="flex justify-center flex-col gap-6">
                     <p className='text-lg md:text-xl lg:text-2xl leading-loose'>
-                        <strong>Alignment Lab AI</strong> is an open-source research lab building tools and frameworks that empower users to directly access the potential of AI technology. We are dedicated to democratizing AI by making it accessible, efficient, and user-friendly for everyone, regardless of technical expertise.
+                        Alignment Lab AI is an open-source research lab with a simple goal: to ensure the development of AI benefits everyone. We believe in empowering individuals by making this transformative technology accessible, user-friendly, and aligned with human values.
                     </p>
                     <div>
                         <div className='border border-b-0 mt-6 border-slate-600 dark:border-slate-00 w-fit mx-auto p-6'>
@@ -28,19 +28,16 @@ export default function About() {
                         </div>
                         <div className='col-span-8 lg:col-span-8 xl:col-span-8 mx-auto'>
                             <p className='text-xs md:text-sm lg:text-base leading-loose text-center'>
-                                <strong>Our mission is to create an AI ecosystem that is aligned with human values and fosters innovation, transparency, and user empowerment.</strong> We envision a future where AI technology is a force for good, benefiting individuals and society as a whole by enabling individuals to directly access and utilize the power of their own data to improve their lives.
+                                Our mission is to build a future where AI is a force for good, a tool that enhances human lives without compromising privacy or control. We are committed to democratizing access to this technology, believing that everyone deserves to harness the power of AI for personal and societal good.
                             </p>
                         </div>
                     </div>
                     <hr className="border-slate-600 dark:border-slate-400 my-6" />
-                    <h3 className='text-2xl md:text-3xl lg:text-4xl font-bold text-center'>
-                        Additional Content
-                    </h3>
                     <p className='text-lg md:text-xl lg:text-2xl leading-loose text-center'>
-                        A core focus for us is building an AI-optimized ecosystem with a user-centric design, powered by generative AI that anticipates user needs prioritizes their privacy and security through ensuring that users have complete control over their information.
+                        We recognize the potential risks associated with centralized control over powerful AI. That's why our research focuses on creating efficient models optimized for local use cases, giving users control over their information.
                     </p>
                     <p className='text-lg md:text-xl lg:text-2xl leading-loose text-center'>
-                        We are developing advanced AI architectures, including Open Empathic, a multimodal LLM capable of perceiving and generating human-like text, images, and speech. This commitment to multimodality and multilingual support underscores our dedication to creating a globally inclusive AI experience.
+                        Open-source development is at the heart of our approach. By fostering collaboration, transparency, and continuous improvement from a global community, we aim to ensure that AI evolves responsibly and benefits all of humanity.
                     </p>
                 </div>
             </div>
