@@ -8,43 +8,39 @@ export default function About() {
                     Alignment Lab AI
                 </h1>
             </div>
-
             <hr className="border-slate-600 dark:border-slate-400 my-6" />
             <div className='container mx-auto'>
-
                 <div className="flex justify-center flex-col gap-6">
                     <p className='text-lg md:text-xl lg:text-2xl leading-loose'>
-                        At Alignment Lab AI, we are a globally distributed team united by a single goal: to advance the field of artificial intelligence through alignment and open-source innovation. Our commitment to this mission and the consistensy of our work has positioned us as an early standard in a burgeoning industry. With a focus on ethical and practical applications, our team&apos;s work aims not to simply produce the most powerful technologies, but to produce technologies designed to help people gain access to the resources they need to smoothly transition to the next phase of the industry, and society as we witness the changes brought by AI.
+                        Alignment Lab AI is an open-source research lab building tools and frameworks that empower users to directly access the potential of AI technology. We are dedicated to democratizing AI by making it accessible, efficient, and user-friendly for everyone, regardless of technical expertise.
                     </p>
-
                     <div>
                         <div className='border border-b-0 mt-6 border-slate-600 dark:border-slate-00 w-fit mx-auto p-6'>
-                            <img src="images/abstract.png" alt="Alignment Labs Logo" class="filter invert scale-300" width={300} />
+                            <img src="images/abstract.png" alt="Alignment Labs Logo" className="filter invert scale-300" width={300} />
                         </div>
                         <hr className="border-slate-600 dark:border-slate-400 mb-6" />
                     </div>
                     <div className="w-8/12 mx-auto grid grid-cols-8 gap-6">
                         <div className='col-span-8 text-center'>
                             <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold underline decoration-4 transition duration-300 hover:text-teal-400'>
-                                Leading the Way
+                                Our Mission
                             </h2>
                         </div>
                         <div className='col-span-8 lg:col-span-8 xl:col-span-8 mx-auto'>
                             <p className='text-xs md:text-sm lg:text-base leading-loose text-center'>
-                                Our alignment strategy focuses on the preparation for the inevitable adoption of powerful AI by the general public.We believe that the opportunity this provides for large-scale education, access, and research is extremely important to optimize for immediately as we very quickly progress to agentic, generally capable AI, and the consequences that may occur if we are not prepared.
+                                Our mission is to create an AI ecosystem that is aligned with human values and fosters innovation, transparency, and user empowerment. We envision a future where AI technology is a force for good, benefiting individuals and society as a whole by enabling individuals to directly access and utilize the power of their own data to improve their lives.
                             </p>
                         </div>
                     </div>
                     <hr className="border-slate-600 dark:border-slate-400 my-6" />
-
                     <p className='text-lg md:text-xl lg:text-2xl leading-loose text-center'>
-                        Our focus spans a broad range of topics related to AI and machine learning such as:  workflow optimization, multimodality, multilinguality, sparsity, compute efficiency, environmental impact, social impact, and more. Our diverse range of interests allows us to approach AI challenges from unique perspectives, ensuring our solutions are both innovative and effective. Our recent projects, such as the OpenOrca data and MistralOrca model, showcase our ability to create tools and models that are not just technologically advanced but also highly relevant to the evolving needs of the AI community.
+                        A core focus for us is building an AI-optimized ecosystem with a user-centric design, powered by generative AI that anticipates user needs prioritizes their privacy and security through ensuring that users have complete control over their information.
                     </p>
                     <p className='text-lg md:text-xl lg:text-2xl leading-loose text-center'>
-                        Alignment Lab AI brings together a wealth of knowledge and experience from different corners of the world. The diverse talent and perspectives allows us to make the rapid progress we enjoy, and has allowed us to create a system of global cooperation from many dozens of organizations and individuals from every background and origin.
+                        We are developing advanced AI architectures, including Open Empathic, a multimodal LLM capable of perceiving and generating human-like text, images, and speech. This commitment to multimodality and multilingual support underscores our dedication to creating a globally inclusive AI experience.
                     </p>
                 </div>
             </div>
-        </div >
+        </div>
     )
 }
